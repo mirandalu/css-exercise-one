@@ -1,20 +1,20 @@
 body
   font-size: 14px;
 }
-
+/** navigation **/
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
+}
+/** section **/
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/** headers **/
 h1 {
   font-family sans-serif;
   font-size: 2em;
