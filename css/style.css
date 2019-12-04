@@ -1,6 +1,7 @@
-body
+body{
   font-size: 14px;
 }
+
 /** navigation **/
 nav {
   background color: yellow;
@@ -8,29 +9,38 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-}
+
 /** section **/
 section {
   margin: 0 auto;
   width: 60%;
 }
+
 /** headers **/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/** applies to all the div elements **/
 h3 {
   font-size: 1.3em;
 }
 
+/** .element changes background color to green **/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/** This CSS class changes background color to grey on the last 3 div elements **/
+.grey-bg {
+  background-color: #D3D3D3;
+}
