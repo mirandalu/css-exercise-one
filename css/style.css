@@ -15,6 +15,7 @@ nav {
 section {
   margin: 0 auto;
   width: 60%;
+  padding-top: 90px;
 }
 
 /** headers **/
@@ -36,12 +37,15 @@ h3 {
 /** .element changes background color to green **/
 .element {
   background-color: green;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
 }
 
 /** This CSS class changes background color to grey on the last 3 div elements **/
 .grey-bg {
   background-color: #D3D3D3;
+}
+
+.element, .grey-bg {
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
 }
